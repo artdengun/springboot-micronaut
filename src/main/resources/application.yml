@@ -1,0 +1,13 @@
+---
+micronaut:
+  application.name: DockerSpringBootMicronaut
+  server:
+    port: 9000
+  endpoints:
+    all:
+      enabled: true
+      sensite: true
+      path: /root
+    health:
+      enabled: true
+      sensitive: true
